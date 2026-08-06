@@ -22,7 +22,7 @@ QAGCC3.ipynb  → QEGC3.2.ipynb
 
 
 
-Note that QAGCC3.2 is NOT on the line of QEGCC3.0.*.*, but a direct decendant of QAGCC3.
+Note that QAGCC3.2 is NOT on the line of QEGCC3.0.1.*, but a direct decendant of QAGCC3.
 
 
 
