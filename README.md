@@ -18,7 +18,7 @@ QAGCC3.ipynb → QGCC3.0.ipynb   → QEGCC3.0.1.ipynb
 
              |
 
-QAGCC3.ipynb  → QEGC3.2.ipynb
+QAGCC3.ipynb  → QEGCC3.2.ipynb
 
 
 
