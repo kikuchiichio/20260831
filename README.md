@@ -10,13 +10,13 @@ Also, you need to place “AT_ALL_SUBMAT.txt” there: this file is a template f
 
 
 
-To distinguish the different (or newer) versions, we use the following naming rule.
+To distinguish the different (or newer) versions through the development, we use the following naming rule.
 
 
 
 QAGCC3.ipynb → QGCC3.0.ipynb   → QEGCC3.0.1.ipynb  
 
-QAGCC3.ipynb  → QEGCC3.2.ipynb
+QAGCC3.ipynb → QEGCC3.2.ipynb
 
 
 
@@ -24,7 +24,7 @@ Note that QAGCC3.2 is NOT on the line of QEGCC3.0.1.*, but a direct decendant of
 
 
 
-To be precise, we distinguish forks or major (minor) changes by appending periods and integers to prefixes of the filenames.
+To be precise, we distinguish  major (or minor) changes by appending periods and integers to prefixes of the filenames.
 
 
 
