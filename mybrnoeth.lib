@@ -1,0 +1,65 @@
+LIB "brnoeth.lib";
+///////////////////////////////////////////////////////////////////////////////
+proc min_wt_rmat (matrix M)
+{
+  // finds the row of M with minimum non-zero entries, i.e. minimum
+  // "Hamming-weight"
+  int m=nrows(M);
+  int n=ncols(M);
+  int i,j;
+  int Hwt=0;
+  for (j=1;j<=n;j=j+1)
+  {
+    if (M[1,j]<>0)
+    {
+      Hwt=Hwt+1;
+    }
+  }
+  int minHwt=Hwt;
+  int k=1;
+  for (i=2;i<=m;i=i+1)
+  {
+    Hwt=0;
+    for (j=1;j<=n;j=j+1)
+    {
+      if (M[i,j]<>0)
+      {
+        Hwt=Hwt+1;
+      }
+    }
+    if (Hwt<minHwt)
+    {
+      minHwt=Hwt;
+      k=i;
+    }
+  }
+  return(k);
+}
+proc Hamming_wt (matrix A)
+"USAGE:     Hamming_wt(A), where A is any matrix
+RETURN:     the Hamming weight (number of non-zero entries) of the matrix A
+"
+{
+  // computes the Hamming weight (number of non-zero entries) of any matrix
+  // notice that "words" are represented by matrices of size 1xn
+  // computing the Hamming distance between two matrices can be done by
+  // Hamming_wt(A-B)
+  int m=nrows(A);
+  int n=ncols(A);
+  int i,j;
+  int w=0;
+  for (i=1;i<=m;i=i+1)
+  {
+    for (j=1;j<=n;j=j+1)
+    {
+      if (A[i,j]<>0)
+      {
+        w=w+1;
+      }
+    }
+  }
+  return(w);
+}
+///////////////////////////////////////////////////////////////////////////////
+
+
