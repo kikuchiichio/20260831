@@ -30,9 +30,9 @@ To be precise, we distinguish forks or major (minor) changes by appending period
 
 There are two lines of development.
 
-(LINE.3) QAGCC3.*.*.ipynb 
+(LINE.3) QAGCC3.X.Y.Z.ipynb 
 
-(LINE.7) QAGCC7.*.*.ipynb
+(LINE.7) QAGCC7.X.Y.Z.ipynb
 
 
 
