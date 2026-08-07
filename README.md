@@ -15,9 +15,7 @@ To distinguish the different (or newer) versions, we use the following naming ru
 
 
 QAGCC3.ipynb → QGCC3.0.ipynb   → QEGCC3.0.1.ipynb  
-
-             |
-
+      |
 QAGCC3.ipynb  → QEGCC3.2.ipynb
 
 
